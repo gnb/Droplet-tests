@@ -3,7 +3,7 @@ PREFIX = /usr/local
 
 RM = rm -f
 
-INCS = -I/usr/local/include/droplet-1.0 -I/usr/local/ssl/include -I../common
+INCS = -I/usr/local/include/droplet-3.0 -I/usr/local/ssl/include -I../common
 
 PLATFORM ?= $(shell uname -s)
 ifeq ($(PLATFORM),SunOS)
